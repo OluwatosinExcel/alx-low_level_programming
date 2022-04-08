@@ -9,17 +9,17 @@
 int main(void)
 
 {
-char alphabet;
+char alphabt;
 
-for (alphabet = ‘a’; alphabet <= ‘z’; alphabet++)
+for (alphabt = ‘a’; alphabt <= ‘z’; alphabt++)
 {
-If (alphabet == ‘q’)
+If (alphabt == ‘q’)
 continue;
 
-else if (alphabet == ‘e’)
+else if (alphabt == ‘e’)
 continue;
 
-put char(alphabet);
+put char(alphabt);
 }
 
 Putchar(‘\n’);
