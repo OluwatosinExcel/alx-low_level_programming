@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - entry point
  *
@@ -7,14 +6,17 @@
  * Return: 0
  */
 int main(void)
+
 {
 Int i;
 
-for (i = 0; i <= 9; ++i)
-putchar(‘0’ + i);
+for (i = 48; i <= 57; ++i)
+{
+putchar(i);
 }
 
 putchar('\n');
 
 return (0);
+
 }
