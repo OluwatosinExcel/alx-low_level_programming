@@ -16,7 +16,7 @@ while (i <= p)
 {
 if (i % 3 == 0 && i % 5 == 0)
 {
-printf("FizzBuzz");
+printf("FizzBuzz ");
 }
 
 else if (i % 5 == 0)
@@ -37,6 +37,6 @@ i++;
 
 
 }
- printf("\n");
+printf("\n");
 return (0);
 }
