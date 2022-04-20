@@ -7,7 +7,7 @@
  * Return: void - correct answer
  */
 
-int _strien(char *s)
+int _strlen(char *s)
 {
 int r;
 
