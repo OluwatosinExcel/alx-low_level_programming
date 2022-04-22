@@ -10,5 +10,8 @@
 
 char *_strcat(char *dest, char *src)
 {
-strcat(dest, src);
+  char dest[12] = "Tosin";
+  char src[12] = "Excel";
+  
+  strcat(dest, src);
 }
