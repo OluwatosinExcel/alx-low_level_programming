@@ -11,9 +11,9 @@ void reset_to_98(int *n)
 
 {
 int a;
-int *p;
+int *n;
 a = 98;
-p = &a;
+n = &a;
 
-_putchar("%d\n", *p);
+int _putchar("%d\n", *n);
 }
