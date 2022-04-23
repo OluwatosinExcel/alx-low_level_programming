@@ -1,16 +1,14 @@
 #include "main.h"
-#include <stdio.h>
-#include <string.h>
-
 /**
  *_strncat - A function that concatenates two strings
  *@dest: A function that will be updated / changed
  *@src: A function that will be updated / changed
- *@n: A function to determine whether src will be null-terminated
+ *@n: value
  *Return: dest
  */
 
 char *_strncat(char *dest, char *src, int n)
+
 {
 int i, j;
 
