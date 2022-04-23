@@ -3,19 +3,31 @@
 #include <string.h>
 
 /**
- * _strncat - A function that concatenates two strings
+ *_strncat - A function that concatenates two strings
  *@dest: A function that will be updated / changed
  *@src: A function that will be updated / changed
- *@n: A function to determine whethher src will be null-terminated
- *Return: char - correct answer
+ *@n: A function to determine whether src will be null-terminated
+ *Return: dest
  */
 
 char *_strncat(char *dest, char *src, int n)
 {
-  strcpy(src, "This is source");
-  strcpy(dest, "This is destination");
+int i, j;
 
-  strncat(dest, src, n);
+i = 0;
+while (dest[i] != '\0')
+{
+i++;
+}
 
-  _putchar("Final destination string : |%s|", dest);
+j = 0;
+while (j < n && src[j] != '\0')
+{
+dest[i] = src[j];
+j++;
+i++;
+}
+dest[i] = '\0';
+
+return (dest); 
 }
