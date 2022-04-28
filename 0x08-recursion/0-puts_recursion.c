@@ -6,5 +6,11 @@
  */
 void _puts_recursion(char *s)
 {
-  
+int y;
+
+for (y = 0; s[y]; y++)
+{
+_putchar (s[y]);
+}
+_putchar ('\n');
 }
