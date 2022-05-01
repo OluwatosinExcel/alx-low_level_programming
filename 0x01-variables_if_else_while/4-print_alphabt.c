@@ -2,17 +2,17 @@
 /**
  * main - entry point
  *
- * Description: Print lowercase alphabet excluding c and q
+ * Description: Print lowercase alphabet except q and e
  * Return: 0
  */
 int main(void)
 {
-char c;
+char letter;
 
-for (c = ‘a’; c <= ‘z’; c++)
+for (letter = ‘a’; letter <= ‘z’; letter++)
 {
-if (c != ‘e’ && c != ‘q’)
-putchar(c);
+if (letter != ‘e’ && letter != ‘q’)
+putchar(letter);
 }
 
 putchar('\n');
