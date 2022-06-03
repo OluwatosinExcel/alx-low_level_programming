@@ -12,4 +12,5 @@ int main(void)
     putchar(excel);
 
     putchar('\n');
+    return (0);
 }
