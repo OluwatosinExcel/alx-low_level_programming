@@ -7,12 +7,12 @@
 
 int main(void)
 {
-    int a;
-    char excel;
-    for (a = '0'; a <= '9'; a++)
-    putchar(a);
-    for (excel = 'a'; excel <= 'f'; excel++)
-    putchar(excel);
-    putchar('\n');
-    return (0);
+int a;
+char excel;
+for (a = '0'; a <= '9'; a++)
+putchar(a);
+for (excel = 'a'; excel <= 'f'; excel++)
+putchar(excel);
+putchar('\n');
+return (0);
 }
