@@ -13,7 +13,7 @@ int main(void)
 		putchar(num + '0');
 		if (num == 9)
 			break;
-		
+
 		putchar(',');
 		putchar(' ');
 	}
@@ -21,4 +21,5 @@ int main(void)
 	putchar('\n');
 
 	return (0);
+
 }
