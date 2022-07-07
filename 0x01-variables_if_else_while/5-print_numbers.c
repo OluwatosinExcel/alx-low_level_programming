@@ -8,14 +8,12 @@
 int main(void)
 
 {
-int i;
-for (i = 0; i < 10; ++i)
+int a;
+for (a = 0; a <= 9; a++)
 {
-printf(‘%i’, i);
+printf("%d", a);
 }
-
-putchar(‘\n’);
-
+putchar('\n');
 return (0);
 
 }
